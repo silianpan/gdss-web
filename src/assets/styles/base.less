@@ -1,0 +1,58 @@
+@import './hc.less';
+.bg-white {
+  background-color: #fff;
+}
+.fixed {
+  position: fixed;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.fh {
+  height: 100%;
+}
+
+.scrollbar {
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+}
+
+.scrollbar-y {
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+}
+.vertical-center-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .ivu-modal {
+    position: sticky;
+  }
+}
+.i-scrollbar-hide {
+  ::-webkit-scrollbar {
+    width: 0;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #e8eaec;
+  }
+}
+.i-scrollbar {
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #808695;
+    border-radius: 4px;
+  }
+}
